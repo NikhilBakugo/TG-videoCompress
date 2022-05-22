@@ -14,7 +14,6 @@
 # https://github.com/1Danish-00/CompressorQueue/blob/main/License> .
 
 from decouple import config
-from bot import LOGS
 
 try:
     APP_ID = config("APP_ID", cast=int)
