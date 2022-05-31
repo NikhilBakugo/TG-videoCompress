@@ -28,12 +28,7 @@ jobs:
         env:
           APP_ID: ${{ secrets.APP_ID }} 
           API_HASH: ${{ secrets.API_HASH }} 
-          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
-          ENV: ${{ secrets.ENV }}
-          SESSION_NAME: ${{ secrets.SESSION_NAME }}
-          LOGZ: ${{ secrets.LOGZ}}
-          FFMPEG: ${{ secrets.FFMPEG}}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           BOT_USERNAME: ${{ secrets.BOT_USERNAME}}
-          AUTH_USERS: ${{ secrets.AUTH_USERS}}
           
           
